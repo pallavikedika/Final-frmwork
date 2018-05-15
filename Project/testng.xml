@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestScripts.Tc1_Login"/>
+      <class name="TestScripts.TC2_AddEmp"/>
+      <class name="Maven.Project.NewTest"/>
+      <class name=".NewTest"/>
+      <class name="Maven.Project.AppTest"/>
+      <class name="BusinessFunctions.Login"/>
+      <class name="Maven.Project.Adf"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
